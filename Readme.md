@@ -32,7 +32,7 @@ orgDB = app.getDatabase("Organization")
 ### Creating Tables in a particular Database
 create a table into a database. Pass table name and column attributes 
 
-Attributes Format [("column 1 name","String"),("column 2 name","String/Number"),("column 3 name","Number/String"),("column 4 name","Number/String")]
+Attributes Format [("column 1 name","String"),("column 2 name","String/Number"),("column 3 name","Number/String")]
 
 ```
 employeeTable = orgDB.createTable("Employee",[("user_name","String"),("address","String"),("phone","Number")])
